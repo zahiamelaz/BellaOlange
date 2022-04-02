@@ -1,0 +1,413 @@
+ /*mobile*/
+ @media(max-width:600px){
+    .page2{
+        display:flex;
+        width:98%;
+        height:100%;
+        flex-direction:column;
+        padding: 10px;
+    }
+    header{
+        display:flex;
+        width: 95%;
+        height:30%;
+        flex-direction:column;
+    }
+    .logo {
+        width:130px;
+    }
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .icon-menu{ 
+        display: flex;
+        justify-content:center;
+        font-size:30px;
+        color: black;
+        margin-right: 300px;
+    }
+    #menu li{
+        position: relative;
+        list-style-type: none;
+        top: 2px;
+    }
+    #menu ul ul{
+        position: absolute;
+        visibility: hidden;
+        top: 20px;
+    }
+    #menu ul li a{
+        text-decoration: none;
+        text-align: center;
+        height: 30px;
+        width: 90px;
+        display: block;
+        line-height: 40px;
+        margin: 20px 10px 20px 0px;
+        border: 1px solid rgb(253, 252, 252);
+    }
+    #menu ul li:hover ul{
+        visibility: visible;
+        background: rgb(82, 153, 245);
+    }
+    #menu ul li ul a:hover{
+        color: #09090a;
+        background-color: red;
+    }
+    .banniere{
+        background-image: url("photos/img1.jpeg");
+        height: 220px;
+        background-size: cover;
+    }
+    .banniere h2{ 
+        display: flex;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        justify-content: center;
+    }
+    button{
+        display: flex;
+        justify-content:space-around;
+        color: white;
+        width: 80px;
+        height: 30px;
+        margin-top: 50px;
+        background-color: red;
+        border-radius: 10px;
+    }
+    h2{
+        display: flex;
+        justify-content: center;
+    }
+    h4{
+        color: red;
+    }
+    .frite{
+        display: flex;
+        flex-direction:row-reverse;
+        flex-wrap: wrap;
+        
+        margin-top: 40px;
+        justify-content: space-around;
+    }
+    input[type="text"]{
+        width: 95%;
+        height: 30px;
+        border: 2px solid black;
+        border-radius: 10px;  
+    }
+    input[type="number"]{
+        width: 95%;
+        height: 30px;
+        border: 2px solid black;
+        border-radius: 10px;
+        
+    }
+    input[type="tel"]{
+        width: 95%;
+        height: 30px;
+        border: 2px solid black;
+        border-radius: 10px; 
+    }
+    input[type="email"]{
+        width: 95%;
+        height: 30px;
+        border: 2px solid black;
+        border-radius: 10px;
+        
+    }
+}
+/*tablette*/
+@media(min-width:600px) and (max-width:900px){
+    .page2{
+        display:flex;
+        width:95%;
+        height:100%;
+        flex-direction:column;
+        padding: 10px;
+    }
+    header{
+        display:flex;
+        width: 95%;
+        height:30%;
+        flex-direction:column;
+    }
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .logo {
+        width: 250px;
+    }
+    .icon-menu{ 
+        display: flex;
+        justify-content:center;
+        font-size:50px;
+        color: black;
+    }
+    #menu li{
+        position: relative;
+        list-style-type: none;
+        top: 2px;
+    }
+    #menu ul ul{
+        position: absolute;
+        visibility: hidden;
+        top: 20px;
+    }
+    #menu ul li a{
+        text-decoration: none;
+        text-align: center;
+        height: 30px;
+        width: 90px;
+        display: block;
+        line-height: 40px;
+        margin: 20px 10px 20px 0px;
+        border: 1px solid rgb(253, 252, 252);
+    }
+    #menu ul li:hover ul{
+        visibility: visible;
+        background: rgb(82, 153, 245);
+    }
+    #menu ul li ul a:hover{
+        color: #09090a;
+        background-color: red;
+    }
+    .banniere{
+        background-image: url("photos/img1.jpeg");
+        height: 350px;
+        background-size: cover;
+    }
+    .banniere h2{ 
+        display: flex;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        justify-content: center;
+    }
+
+    button{
+        color: white;
+        width: 150px;
+        height: 50px;
+        background-color: red;
+        margin: 250px;
+        border-radius: 10px;
+    }
+    h2{
+        display: flex;
+        justify-content: center;
+    }
+    h4{
+        color: red;
+    }
+    .frite{
+        display: flex;
+        flex-direction:row-reverse;
+        flex-wrap: wrap;
+        margin-top: 40px;
+        justify-content: space-around;
+    }
+    input[type="text"]{
+        width: 95%;
+        height: 30px;
+        border: 2px solid black;
+        border-radius: 10px;  
+    }
+    input[type="number"]{
+        width: 95%;
+        height: 30px;
+        border: 2px solid black;
+        border-radius: 10px;  
+    }
+    input[type="tel"]{
+        width: 95%;
+        height: 30px;
+        border: 2px solid black;
+        border-radius: 10px; 
+    }
+    input[type="email"]{
+        width: 95%;
+        height: 30px;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+}
+/*deskstop*/
+@media(min-width:900px){
+    .page2{
+        display:flex;
+        width:95%;
+        height:100%;
+        flex-direction:column;
+        padding: 10px;
+    }
+    header{
+        display:flex;
+        width: 95%;
+        height:30%;
+        flex-direction:column;
+    }
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .logo {
+        width: 300px;
+    }
+    #menu ul li a span{
+        display: none;
+    }
+    #menu li{
+        margin:20px ; 
+        font-size: 20px;
+    }
+    #menu ul{
+        list-style-type: none;
+        display: flex;
+    }
+    #menu a{
+        text-decoration: none;
+        color:black;
+    }
+    #menu a:hover{
+        color: red;
+    }
+    .banniere{
+        background-image: url("photos/img1.jpeg");
+        height: 350px;
+        background-size: cover;
+    }
+    .banniere h2{ 
+        display: flex;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+    }
+    .container{
+        display: flex;
+        width:95%;
+        flex-direction: column;
+    }
+    button{
+        color: white;
+        width: 150px;
+        height: 50px;
+        background-color: red;
+        border-radius: 10px;
+        margin: 200px ;
+    }
+    p{
+        font-size: 25px;
+    }
+    h2{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0px 50px 0px;
+    }
+    h4{
+        display: flex;
+        color: red; 
+        margin-left: 400px;
+        font-size: 20px;
+    }
+    .frite{
+        display: flex;
+        flex-direction:row-reverse;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        font-size: 25px;
+        margin: 50px 0px 50px 0px;
+    }
+    input[type="checkbox"]{
+        width: 20px;
+        height: 20px;
+    }
+    input[type="radio"]{
+        width: 20px;
+        height: 20px;
+    }
+    input[type="text"]{
+        width:90%;
+        height: 35px;
+        border: 2px solid black;
+        border-radius: 10px;  
+        font-size: 20px;
+    }
+    input[type="number"]{
+        width: 90%;
+        height: 35px;
+        border: 2px solid black;
+        border-radius: 10px;
+        font-size: 20px;  
+    }
+    input[type="tel"]{
+        width: 90%;
+        height: 35px;
+        border: 2px solid black;
+        border-radius: 10px;
+        font-size: 20px; 
+    }
+    input[type="email"]{
+        width: 90%;
+        height: 35px;
+        border: 2px solid black;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    .informations{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:repeat(2,1fr);
+        padding: 10px;
+    }
+ 
+    .commande{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4,1fr);
+    }
+    .boisson{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2,1fr);
+        font-size: 25px;
+        padding: 10px;
+    }
+    .dessert{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2,1fr);
+        font-size: 25px;
+        padding: 10px;
+    }
+    .livraison{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:repeat(3,1fr);
+        padding: 10px; 
+    }
+}
+
+
+
